@@ -1,25 +1,30 @@
-/* Master Styles */
+﻿/* Master Styles */
 h1 {
   color: #369;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
+
 h2, h3 {
   color: #444;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
 }
+
 body {
   margin: 2em;
 }
+
 body, input[text], button {
   color: #888;
   font-family: Cambria, Georgia;
 }
+
 a {
   cursor: pointer;
   cursor: hand;
 }
+
 button {
   font-family: Arial;
   background-color: #eee;
@@ -29,14 +34,16 @@ button {
   cursor: pointer;
   cursor: hand;
 }
-button:hover {
-  background-color: #cfd8dc;
-}
-button:disabled {
-  background-color: #eee;
-  color: #aaa;
-  cursor: auto;
-}
+
+  button:hover {
+    background-color: #cfd8dc;
+  }
+
+  button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+  }
 
 /* Navigation link styles */
 nav a {
@@ -48,25 +55,21 @@ nav a {
   background-color: #eee;
   border-radius: 4px;
 }
-nav a:visited, a:link {
-  color: #607D8B;
-}
-nav a:hover {
-  color: #039be5;
-  background-color: #CFD8DC;
-}
-nav a.active {
-  color: #039be5;
-}
+
+  nav a:visited, a:link {
+    color: #607D8B;
+  }
+
+  nav a:hover {
+    color: #039be5;
+    background-color: #CFD8DC;
+  }
+
+  nav a.active {
+    color: #039be5;
+  }
 
 /* everywhere else */
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
-/*
-Copyright 2017 Google Inc. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
